@@ -1,63 +1,38 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SoS Veranstaltungstechnik</title>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+}
 
-    css/style.css
-</head>
-<body>
+header {
+    background: #111;
+    color: white;
+    padding: 20px;
+}
 
-<header>
-    <h1>SoS Veranstaltungstechnik</h1>
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
 
-    <nav>
-        <aeistungenLeistungen</a>
-        <a href="#referenzenn</a>
-        <aontaktKontakt</a>
-    </nav>
-</header>
+.hero {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
 
-<section class="hero">
-    <h2>Professionelle Veranstaltungstechnik</h2>
+section {
+    background: white;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 8px;
+}
 
-    <p>
-        Ton, Licht und Bühnentechnik für Events,
-        Firmenveranstaltungen und Privatfeiern.
-    </p>
-</section>
-
-<section id="leistungen">
-    <h2>Unsere Leistungen</h2>
-
-    <ul>
-        <li>Tontechnik</li>
-        <li>Lichttechnik</li>
-        <li>Bühnentechnik</li>
-    </ul>
-</section>
-
-<section id="referenzen">
-    <h2>Referenzen</h2>
-
-    <p>
-        Firmenfeiern, Hochzeiten,
-        Vereinsveranstaltungen und Stadtfeste.
-    </p>
-</section>
-
-<section id="kontakt">
-    <h2>Kontakt</h2>
-
-    <p>
-        E-Mail: -.de
-    </p>
-</section>
-
-<footer>
-    <p>© SoS Veranstaltungstechnik</p>
-</footer>
-
-</body>
-</html>
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
