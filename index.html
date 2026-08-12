@@ -5,61 +5,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoS Veranstaltungstechnik</title>
 
-    css/style.css
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(8px);
+            z-index: 1000;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo {
+            color: white;
+            font-size: 1.6rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #38bdf8;
+        }
+
+        .hero {
+            height: 100vh;
+            background:
+                linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+                url("https://www.facebook.com/photo.php?fbid=1525460872964824&set=pb.100065027763335.-2207520000&type=3");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 35px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #38bdf8;
+            color: white;
+            text-decoration: none;
+            padding: 15px 35px;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #0ea5e9;
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .nav-links {
+                gap: 15px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
 </head>
 <body>
 
 <header>
-    <h1>SoS Veranstaltungstechnik</h1>
+    <div class="container">
+        <div class="navbar">
+            #SoS Veranstaltungstechnik</a>
 
-    <nav>
-        <aeistungenLeistungen</a>
-        <a href="#referenzenn</a>
-        <aontaktKontakt</a>
-    </nav>
+            <nav class="nav-links">
+                #leistungenLeistungen</a>
+                #referenzenReferenzen</a>
+                #kontaktKontakt</a>
+            </nav>
+        </div>
+    </div>
 </header>
 
 <section class="hero">
-    <h2>Professionelle Veranstaltungstechnik</h2>
+    <div class="container">
+        <div class="hero-content">
+            <h1>Professionelle Veranstaltungstechnik</h1>
 
-    <p>
-        Ton, Licht und Bühnentechnik für Events,
-        Firmenveranstaltungen und Privatfeiern.
-    </p>
+            <p>
+                Ton-, Licht- und Bühnentechnik für Firmenveranstaltungen,
+                Konzerte, Vereinsfeste und private Events.
+            </p>
+
+            #kontakt
+                Jetzt anfragen
+            </a>
+        </div>
+    </div>
 </section>
-
-<section id="leistungen">
-    <h2>Unsere Leistungen</h2>
-
-    <ul>
-        <li>Tontechnik</li>
-        <li>Lichttechnik</li>
-        <li>Bühnentechnik</li>
-        <li>DJ-Equipment</li>
-        <li>Präsentationstechnik</li>
-    </ul>
-</section>
-
-<section id="referenzen">
-    <h2>Referenzen</h2>
-
-    <p>
-        Firmenfeiern, Hochzeiten,
-        Vereinsveranstaltungen und Stadtfeste.
-    </p>
-</section>
-
-<section id="kontakt">
-    <h2>Kontakt</h2>
-
-    <p>
-        E-Mail: info@sos-veranstaltungstechnik.de
-    </p>
-</section>
-
-<footer>
-    <p>© SoS Veranstaltungstechnik</p>
-</footer>
 
 </body>
 </html>
