@@ -1,38 +1,61 @@
+/* Bereich: Grunddesign */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    background: #f5f5f5;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
 }
 
-header {
-    background: #111;
-    color: white;
+/* Bereich: Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
+    background: #000;
+    color: #fff;
 }
 
-nav a {
-    color: white;
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
     text-decoration: none;
-    margin-right: 20px;
 }
 
+/* Bereich: Hero */
 .hero {
-    background: #004080;
-    color: white;
     text-align: center;
-    padding: 100px 20px;
-}
-
-section {
-    background: white;
-    margin: 20px;
-    padding: 30px;
-    border-radius: 8px;
-}
-
-footer {
-    background: #111;
+    padding: 120px 20px;
+    background: linear-gradient(135deg, #222, #444);
     color: white;
+}
+
+/* Bereich: Sektionen */
+.section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Bereich: Kontaktformular */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Bereich: Footer */
+footer {
     text-align: center;
     padding: 20px;
+    background: #000;
+    color: white;
 }
