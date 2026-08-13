@@ -86,3 +86,15 @@ footer {
     background: #000;
     color: #fff;
 }
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;       /* Logo-Größe */
+    height: auto;       /* Proportionen bleiben korrekt */
+    margin-right: 20px; /* Abstand zur Navigation */
+}
